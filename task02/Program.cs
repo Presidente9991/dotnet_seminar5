@@ -28,10 +28,7 @@ int SumOfElementsInArray()
     int sumOfElements = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if (i % 2 != 0)
-        {
-            sumOfElements += array[i];
-        }
+        if(i % 2 != 0) sumOfElements += array[i];
     }
     return sumOfElements;
 }
